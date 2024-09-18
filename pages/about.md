@@ -1,27 +1,35 @@
 ---
-title: About
+title: Essay
 layout: about
 permalink: /about.html
-# include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="media_image" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="Styling;Embedding" %}
 
-## About the Collection
+## Styling
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+Enhance your text using the features that are located in the Includes>Feature folder of your repository. 
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+These include:
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+{% include feature/blockquote.html text="Blockquotes to help call out specific text" speaker="The Author" source="The Literary Source" %}
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+{% include feature/card.html text="Which can also incorporate your items your media and alt text to make the image fully accessible." header="Cards" objectid="media_image" width="50" alt="Woman posing for a photo wearing glasses and a floral print dress." centered="true" %}
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/alert.html text="And alerts for your readers" color="info" align="center" %}
+
+## Embedding
+
+**Intersperse** the media around your text where ever you think they will make the biggest impact.
+
+{% include feature/audio.html objectid="media_audio" caption=" Featured media will automatically link to the full item page with complete metadata, even if you only have an essay page listed in navigation as we do here." %}
+
+{% include feature/pdf.html objectid="media_doc" caption="PDF files can be viewed in full without the reader needing to jump out to the item level page." %}
+
+{% include feature/video.html objectid="media_video" %}
+

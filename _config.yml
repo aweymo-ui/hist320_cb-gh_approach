@@ -22,7 +22,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: HIST320 CollectionBuilder-GH Essay Approach
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: More deevloped way to present research in mixed media, eessay format
+tagline: More developed way to present research in mixed media, essay format
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Researchers will only need to create a GitHub account, add items to the objects folder adjust config.yml file and settings>pages to create a site for their work."
